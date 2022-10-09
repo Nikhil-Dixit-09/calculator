@@ -1,0 +1,62 @@
+
+#calculator{
+    position: absolute;
+    top: 20vh;
+    left: 39.5vw;
+    height: 318px;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background-color: cyan;
+}
+#coverup{
+    position: relative;
+    top: -1vw;
+}
+#display-container{
+    position: relative;
+    top: -1vw;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    height: 75px;
+    border: 2px solid green;
+}
+#display{
+    position: relative;
+    /* border: 2px solid black; */
+    top: -3vh;
+    height: 50px;
+    text-align: right;
+    font-size: 3rem;
+    color: coral;   
+}
+#one{
+    display: flex;
+}
+#two{
+    display: flex;
+}
+#three{
+    display: flex;
+}
+#four{
+    display: flex;
+}
+.button{
+    display: inline-block;
+    height: 50px;
+    width: 75px;
+    font-size: 32px;
+    padding-top: 10px;
+    border: 2px solid green;
+    text-align: center;
+    cursor: pointer;
+
+}
+.button:hover{
+    color: red;
+    transform: scale(1.05);
+}
+
+
